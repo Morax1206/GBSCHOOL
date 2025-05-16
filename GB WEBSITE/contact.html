@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GREENBELLS SCHOOL</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+      <!-- Top Navigation Bar -->
+      <header class="header">
+        <nav class="container">
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav" id="toggle">
+                <i class="fa fa-times" aria-hidden="true" onclick="hidemenu()"></i> 
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="academics.html">Academics</a></li>
+                    <li><a href="admissions.html">Admissions</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                                        <li><a href="news.html">News</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
+        </nav>
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script>
+        var toggle = document.getElementById("toggle");
+        function showmenu(){
+            toggle.style.right = "0";
+        }
+        function hidemenu(){
+            toggle.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
